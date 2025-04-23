@@ -39,23 +39,23 @@ npx playwright test --ui
 
 ### 💻 Flujo Automatizado
 
-1. Abrir sitio web
-    https://blazedemo.com/
+1. `Abrir sitio web`
+- `https://blazedemo.com/`
 
-2. Seleccionar origen y destino
-    "Paris" ➡️ "Buenos Aires"
+2. `Seleccionar origen y destino`
+- `"Paris" ➡️ "Buenos Aires"`
 
-3. Seleccionar primer vuelo disponible
+3. `Seleccionar primer vuelo disponible`
 
-4. Llenar formulario con datos personales y de pago
+4. `Llenar formulario con datos personales y de pago`
 
-5. Confirmar reserva
+5. `Confirmar reserva`
 
-6. Validar mensaje de éxito: Thank you for your purchase
+6. `Validar mensaje de éxito: Thank you for your purchase`
 
 
 
-## 🧱 Clases Implementadas
+### 🧱 Clases Implementadas
 
 ### `BasePage.ts`
 Clase abstracta que encapsula acciones comunes en la UI:
@@ -71,7 +71,7 @@ Hereda de BasePage. Encapsula las acciones específicas:
 - `fillPersonalInfo()`
 - `confirmationBooking()`
 
-### `bookingLocators.ts
+### `bookingLocators.ts`
 Archivo con todos los selectores usados en el flujo.
 
 
@@ -100,7 +100,7 @@ npm install --save-dev @playwright/test
 ---
 
 ## ✍️ Autor
-Proyecto realizado por John Muñoz como parte del proceso de aprendizaje en automatización de pruebas con Playwright.
+Proyecto realizado por ***John Muñoz*** como parte del proceso de aprendizaje en automatización de pruebas con Playwright.
 
 ---
 
@@ -110,5 +110,5 @@ Proyecto realizado por John Muñoz como parte del proceso de aprendizaje en auto
 - `Ejecuta tus pruebas frecuentemente usando npx playwright test.`
 
 ### 🔗 Recursos
-📘 Documentación oficial de Playwright  `https://playwright.dev/java/`
-🧰 Playwright Codegen `https://playwright.dev/docs/codegen`
+[`📘 Documentación oficial de Playwright`](https://playwright.dev/java/)
+[`🧰 Playwright Codegen`](https://playwright.dev/docs/codegen)
